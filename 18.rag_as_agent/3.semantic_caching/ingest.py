@@ -12,6 +12,7 @@ splitter = RecursiveCharacterTextSplitter(
 # Load Documents
 loader = PyPDFLoader("./python.pdf")
 documents = loader.load()
+print(documents)
 
 def clean_text(text):
     text = text.encode("utf-8", "ignore").decode("utf-8")

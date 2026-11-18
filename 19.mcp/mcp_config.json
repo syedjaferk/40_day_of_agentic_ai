@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rag-database": {
+      "command": "python",
+      "args": ["rag_server.py"]
+    }
+  }
+}
